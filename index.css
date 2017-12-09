@@ -1,0 +1,108 @@
+.social a {
+  padding: 0 .5em;
+}
+ 
+    
+    .backgroundimg{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: ;
+        height: 910px;
+        width: 100%;
+    }
+
+    .img3c{
+        margin:20px;
+        text-align:center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color:#246ee5 ;
+        height: 100%;
+        width: 100%;
+}
+
+    .bouton-image:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: text-top;
+    background-color: transparent;
+    background-position : center center;
+    background-repeat:no-repeat;
+}
+
+   .monBouton:before{
+     background-image : url(B1.jpg);
+}
+   .sonBouton:before{
+     background-image : url(R1.png);
+}
+  .tonBouton:before{
+     background-image : url(T1.png);
+}
+
+.fonBouton{
+       background-image : url(g.png);
+     margin-left: 42px;
+}
+
+.container.unorder.img-responsive{
+     background: #111;
+   
+    height: 500px;
+}
+.unorder ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.unorder li {
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 3%;
+}
+.unorder img{
+  border: 1px solid #000;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 hsla(0,0%,0%, .3);
+    margin-top: 30%;
+}
+.unorder li:nth-child(4) {
+  animation: xfade 16s 0s infinite;
+}
+.unorder li:nth-child(3) {
+  animation: xfade 16s 4s infinite;
+}
+.unorder li:nth-child(2) {
+  animation: xfade 16s 8s infinite;
+}
+.unorder li:nth-child(1) {
+  animation: xfade 16s 12s infinite;
+}
+@keyframes xfade{
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+ 
+    
+}
+  
+}
+ .container.nj{
+    height: 60px;
+    width: 20px;
+}
